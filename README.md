@@ -20,7 +20,10 @@ By “teach” we enable the users to record their sessions with video, audio or
 Developer Guide:<br>
 We have used the flutter framework for our development of mixNteach application. 
 This part of the document aims for any developer to explain the whole structure of our project
-Although Flutter aims to manage the frontend and backend models together for the sake of code maintenance we have tried to slice it. 
+Although Flutter aims to manage the frontend and backend models together for the sake of code maintenance we have tried to slice it in the following way:
+1. Widgets
+2. Backend Operations
+3. DB interactions
 
 
 
