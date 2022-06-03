@@ -7,6 +7,7 @@ class appTheme {
   var secondaryColor = Color(0xFFFFFFFF);
   var surfaceColor = Color(0xFFEFF1ED);
   var contentColor = Color(0xFF000000);
+  var secContentColor = Color(0xFF808080);
   var disabledColor = Color(0xFF6A6A8B);
 
   TextStyle h1Style(context, colour) {
@@ -23,11 +24,12 @@ class appTheme {
         fontWeight: FontWeight.bold);
   }
 
-  TextStyle h3Style(context, colour) {
+  TextStyle bodyStyle(context) {
     return TextStyle(
-        color: colour,
-        fontSize: getWidth(context, 0.1),
-        fontWeight: FontWeight.bold);
+      color: secContentColor,
+      fontSize: getWidth(context, 0.05),
+      fontStyle: FontStyle.normal,
+    );
   }
 
   TextStyle contentStyle(context, colour) {

@@ -8,7 +8,6 @@ appTheme theme = new appTheme();
 var constants = appConstants();
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   runApp(MyApp());
 }
 
@@ -22,7 +21,6 @@ class MyApp extends StatelessWidget {
         primaryColor: theme.primaryColor,
         accentColor: theme.secondaryColor,
       ),
-      //home: MyHomePage(title: 'Flutter Demo Home Page'),
       initialRoute: '/',
       routes: routes.getRoutes(context),
     );
