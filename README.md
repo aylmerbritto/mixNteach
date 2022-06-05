@@ -26,8 +26,8 @@ Although Flutter aims to manage the frontend and backend models together for the
 3. DB interactions
 
 ### Main Script and Routes
-1. (main.dart)[mixNteach/blob/main/lib/main.dart] is responsible for starting the application and getting things in order. 
-2. (routes.dart)[mixNteach/blob/main/lib/routes.dart] is the routes directory of the app. Each page has a designated route and the controller of this particular page will be called in the backend.
+1. (mixNteach/blob/main/lib/main.dart)[main.dart] is responsible for starting the application and getting things in order. 
+2. (mixNteach/blob/main/lib/routes.dart)[routes.dart] is the routes directory of the app. Each page has a designated route and the controller of this particular page will be called in the backend.
 
 ### src directory
 1. 
