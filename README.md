@@ -25,6 +25,9 @@ Although Flutter aims to manage the frontend and backend models together for the
 2. Backend Operations
 3. DB interactions
 
+#### Main Script and Routes
+(main.dart)[lib/main.dart] is responsible for starting the application 
+
 
 
 
