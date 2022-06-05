@@ -26,11 +26,21 @@ Although Flutter aims to manage the frontend and backend models together for the
 3. DB interactions
 
 ### Main Script and Routes
-1. (/lib/main.dart)[main.dart] is responsible for starting the application and getting things in order. 
-2. (/lib/routes.dart)[routes.dart] is the routes directory of the app. Each page has a designated route and the controller of this particular page will be called in the backend.
+1. (./lib/main.dart)[main.dart] is responsible for starting the application and getting things in order. 
+2. (./lib/routes.dart)[routes.dart] is the routes directory of the app. Each page has a designated route and the controller of this particular page will be called in the backend.
 
-### src directory
-1. 
+### src 
+1. appConstants.dart is supposed to get hold of all the constant strings that are used in our application 
+
+#### Models
+1. This directory holds files in the name of tables that are created in our local sqlite db. 
+2. It creates the table with appropriate schemas and has basic routines that perform CRUD and more operations
+3. Only the routines in this directory has direct access to read and write data in our db tables 
+
+#### Layouts
+1. Themes.dart hold information of the application's color palletes and typography
+2. templates.dart has readymade widgets that are used in the application 
+3. The files in materials directory has hold of files that are responsible for individual routes that are in our first module of our application. 
 
 
 
